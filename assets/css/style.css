@@ -6,12 +6,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #f8e1c2;
+  height: 100%;
+  min-height: 100%;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
   color: #f8e1c2;
   text-align: center;
 }
@@ -30,7 +33,7 @@ nav {
 }
 
 nav img {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .logo-section {
@@ -65,30 +68,54 @@ nav img {
   align-items: flex-start;
   justify-content: center;
   position: relative;
-  
 }
 
 .jumbotron {
-    margin-top: 10%;
+  margin-top: 10%;
   background-color: rgba(113, 164, 160, 0.5);
 }
 
 .hero {
-    color: #f8e1c2;
+  color: #f8e1c2;
 }
-
 
 /* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+.footer-containter {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  background-color: #71a4a0;
+  max-width: 100%;
+  left: 0;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+footer {
+    clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+}
+
+/* Media query */
+/* mobile 576px and up */
+@media screen and (min-width: 576px) {
+    .footer-container {
+        max-width: 100%;
+    }
+}
+
+/* Tablet 768px and up */
+@media screen and (min-width: 768px) {
+   
+
+}
+
+/* Laptop 992px and up */
+@media screen and (min-width: 992px) {
+   
+}
+
+/* Desktop 1200px */
+@media screen and (min-width: 1200px) {
+  
 }
