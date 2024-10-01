@@ -28,7 +28,9 @@
             </a>
         </div>
         <div class="button-section">
-            <button type="button" class="btn btn-warning">Immediate Help!</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Immediate Help!
+            </button>
         </div>
         <div class="title-section">
             <h1>Minds Together</h1>
@@ -55,6 +57,30 @@
 
     <!-- Main -->
     <main>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header top-modal">
+                        <h5 class="modal-title" id="exampleModalLabel">Immediate Help!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body main-modal">
+                        If you or someone you know is in immediate danger regarding mental health, it’s important to
+                        reach out for help right away. Please consider contacting a trusted friend, family member, or a
+                        mental health professional. If you feel unsafe, please call emergency services or a crisis
+                        hotline to provide immediate support. You don’t have to face this alone; there are people who
+                        care and can help you through it. Your safety and well-being are the top priority.
+                    </div>
+                    <div class="modal-footer bottom-modal">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero image and jumbotron -->
         <div class="container-fluid hero-container">
             <div class="row">
                 <div class="col-12">
@@ -68,8 +94,8 @@
     </main>
     <article>
         <!-- Who are we? -->
-        <div class="col-12">
-            <h3>Who Are We?</h3>
+        <div class="col-12 about-container">
+            <h3 class="about">Who Are We?</h3>
             <p>At Minds Together, we are dedicated to fostering mental well-being by providing accessible resources,
                 support, and community for individuals navigating their mental health journeys. Our mission is to
                 empower users with knowledge, reduce stigma, and promote open conversations about mental health. We
@@ -80,7 +106,7 @@
         <!-- Cards -->
         <div class="card-container">
             <div class="row">
-                <div class="col-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -92,25 +118,34 @@
                                 mental health. Whether it’s through therapy, support groups, or just talking to someone
                                 you trust, taking that step can lead to meaningful changes and a brighter outlook.</p>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
