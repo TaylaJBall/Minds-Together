@@ -124,10 +124,9 @@ nav img {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
-.card {
+.card { 
     background-color: #407b93;
     color: #fff;
 }
