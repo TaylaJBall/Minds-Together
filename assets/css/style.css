@@ -63,6 +63,16 @@ nav img {
   width: 25%;
 }
 
+.modal-button {
+  background-color: #db6930;
+  color: #000;
+}
+
+.modal-button:hover {
+  background-color: #71a4a0;
+  color: #fff;
+}
+
 /* Body styles */
 .hero-container {
   background: url("../images/hero-image.jpg") no-repeat center center/cover;
