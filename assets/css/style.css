@@ -92,8 +92,6 @@ a.nav-link {
 .jumbotron {
   margin-top: 15%;
   background-color: rgba(113, 164, 160, 0.5);
-  width: 500px;
-  height: 250px;
 }
 
 .jumbotron-text h2, h3 {
@@ -198,6 +196,11 @@ footer {
 
   .navbar-toggler {
     display: block;
+  }
+
+  .jumbotron {
+    width: 500px;
+  height: 250px;
   }
 }
 
