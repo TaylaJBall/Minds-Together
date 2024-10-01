@@ -61,6 +61,20 @@ nav img {
   align-self: center;
 }
 
+a.nav-link {
+  flex-wrap: nowrap;
+}
+
+.nav-link {
+  width: 100px;
+}
+
+.cope-link {
+  flex-wrap: nowrap;
+  object-fit: cover;
+}
+
+
 /* Body styles */
 .hero-container {
   background: url("../images/hero-image.webp") no-repeat center center/cover;
@@ -117,6 +131,12 @@ nav img {
 .card { 
     background-color: #407b93;
     color: #fff;
+    height: 650px;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
 }
 
 /* Footer */
@@ -164,40 +184,61 @@ footer {
     max-width: 100%;
    }
 
-   
+   h1 {
+    font-size: 30px;
+  }
 
+  .navbar-toggler {
+    display: block;
+  }
 }
 
 /* Laptop 992px and up */
 @media screen and (min-width: 992px) {
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   
   .logo-section {
-    width: 20%;
+    width: 15%;
   }
   
   .button-section {
-    width: 20%;
+    width: 15%;
     justify-content: center;
     /* margin-right: 70px; */
   }
   
   .title-section {
-    width: 25%;
+    width: 40%;
     text-align: center;
     justify-content: center;
   }
   
   .links-section {
     justify-content: flex-end;
-    width: 35%;
+    width: 30%;
   }
-}
 
-/* Desktop 1200px */
-@media screen and (min-width: 1200px) {
+  a.nav-link {
+    flex-wrap: nowrap;
+  }
   
+  .nav-link {
+    width: 100px;
+  }
+  
+  .cope-link {
+    width: 60px;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-nav {
+    align-items: center; 
+    justify-content: center; 
+  }
 }
