@@ -54,12 +54,16 @@ nav img {
 }
 
 .navbar-toggler {
-  background-color: #0c5460;
+  background-color: #71a4a0;
+}
+
+.logo a {
+  align-self: center;
 }
 
 /* Body styles */
 .hero-container {
-  background: url("../images/hero-image.jpg") no-repeat center center/cover;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -189,7 +193,7 @@ footer {
   
   .links-section {
     justify-content: flex-end;
-    width: 35%%;
+    width: 35%;
   }
 }
 
