@@ -1,10 +1,8 @@
 # MINDS TOGETHER
 
-Minds Together is a warm and safe place to go for advise on how to cope easier with mental health. Minds Together has been developed as part of Code Institute's Full-Stack Software Development Bootcamp as my 1st ever project. This project is made by using HTML, CSS and Bootstrap. 
+Minds Together is a warm and safe place to go for advise on how to cope easier with mental health. Minds Together has been developed as part of Code Institute's Full-Stack Software Development Bootcamp as my 1st ever project. This project is made by using HTML, CSS and Bootstrap. Mental Health is a subject that is close to my heart so it was a pleasure to cover this topic for my first project.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
-
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+![amiresponsive](docs/am-i-responsive.png)
 
 ---
 
@@ -46,8 +44,6 @@ Add a link to the live site here, for Milestone 1 this will be the GitHub Pages 
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
 ### User Stories
 
  External User’s Goal:
@@ -74,22 +70,18 @@ Add a link to the live site here, for Milestone 1 this will be the GitHub Pages 
 
 ### Colour Scheme
 
-![alt text](<Minds Together Palette-1.png>)
+![Minds Together Palette](<docs/Minds-Together-Palette.png>)
 
 I chose this colour palette as I found the colours were calming. I took each colour from my hero image.
 
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+I chose the font Roboto as I found it to be an informative yet friendly font. It is also an accessibly friendly font. The weights i included are 400,500,600 and 700 for the variety of different sized headers.
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+![Roboto font](docs/Roboto-font.png)
 
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+I used [Google Fonts](https://fonts.google.com/) to import my fonts.
 
 ### Imagery
 
@@ -97,19 +89,19 @@ Use this section to explain what sort of imagery you plan to use through your si
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+I made my wireframes using Balsamiq.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+![Minds Together Home](docs/home-wireframe.png)
 
-![Minds Together Home](Minds-Together-Home.png)
+![Minds Together Get Help](docs/get-help-wireframe.png)
 
-![Minds Together Get Help](Minds-Together-Get-Help.png)
+![Minds Together How To Cope](docs/how-to-cope-wireframe.png)
 
-![Minds Together How To Cope](Minds-Together-How-To-Cope.png)
+![Mobile Home](docs/mobile-home-wireframe.png)
 
-![Mobile Home](Mobile-Home.png)
+![Tablet Home](docs/tablet-home-wireframe.png)
 
-![Tablet Home](<Tablet-Home .png>)
+![High Fidelity Home](docs/high-fidelity-home-wireframe.png)
 
 ## Features
 
@@ -119,36 +111,35 @@ My site is made up of the Home page, the Get Help page and the How To Cope page.
 
 General features that reoccur on each page are the navbar, footer, favicon, 
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
-
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+![General Features on each page](docs/general-features.png)
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+In my project I have added aria-labels and names to all my links and buttons to enable screen readers to understand each element. I have run a lighthouse test and a wave test to ensure I have met the requirements needed to be accessible friendly.
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+* HTML
+* CSS
 
 ### Frameworks, Libraries & Programs Used
 
+* Balsamiq - To create the wireframes
+* Git - For version control
+* Github - To save and store my project
+* Bootstrap 4.6 - The framework for my project, this was used for my header, the modal and the cards.
+* Google Fonts - For importing the font used in my project
+* Font Awesome - For the icons for my social media links and my burger icon for the mobile menu
+* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+* Am I Responsive - To gather Images for my README that display on different devices.
+* 
 Add any frameworks, libraries or programs used while creating your project.
 
 Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
@@ -161,7 +152,14 @@ A great tip for this section is to include them as you use them, that way you wo
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+* Log in (or sign up) to Github.
+* Find the repository for this project, Bully-Book-Club.
+* Click on the Settings link.
+* Click on the Pages link in the left hand side navigation bar.
+* In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+* Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ### Local Development
 
@@ -177,17 +175,11 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
 
@@ -195,12 +187,18 @@ If you have used some code in your project that you didn't write, this is the pl
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content for the website was created by me with some assistance from [ChatGPT](https://openai.com/chatgpt/)
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+The Images from my site were all taken from [pexels](https://www.pexels.com/) except the main hero image which was generated using [Adobe Firefly](https://firefly.adobe.com/inspire/images?ff_channel=adobe_com&ff_campaign=ffly_homepage&ff_source=firefly_seo).
+
+I converted my images to WEBP using [Pixelied](https://pixelied.com/convert/png-converter/png-to-webp)
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+My family for their patience and understanding whilst I was completing this project.
+
+[Amy Richardson](https://github.com/amylour) For her assistance and helpful resources. She helped me to find my lost navbar toggler and rectify this. She also helped me to get the spacing in my navbar correct and advised me on how to rectify my button elements.
+
+[Laura Hall](https://github.com/laurachri-hall) for helping me to get my navbar in order, choose my hero image and for overall supporting me through this.
