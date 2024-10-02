@@ -175,6 +175,20 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
+### Lighthouse testing
+
+[Lighthouse home page web version](docs/Lighthouse-home-web.png)
+
+[Lighthouse home page mobile version](docs/Lighthouse-home-mobile.png)
+
+[Lighthouse get help page web](docs/Lighthouse-get-help-web.png)
+
+[Lighthouse get help page mobile](docs/Lighthouse-get-help-mobile.png)
+
+[Lighthouse how to cope page web](docs/Lighthouse-how-to-cope-web.png)
+
+[Lighthouse how to cope page mobile](docs/Lighthouse-how-to-cope-mobile.png)
+
 
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
