@@ -189,9 +189,11 @@ Place instructions on how to clone your project here.
 
 [Lighthouse how to cope page mobile](docs/Lighthouse-how-to-cope-mobile.png)
 
+### Validators
 
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+[CSS Validator](docs/css-validator.png)
+
+[HTML Validator](docs/html-validator.png)
 
 ## Credits
 
